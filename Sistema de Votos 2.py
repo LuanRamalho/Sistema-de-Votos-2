@@ -204,34 +204,34 @@ label_percentualF.pack(fill="x")
 
 # Barra de progresso
 barraA = ttk.Progressbar(frame_content, orient="horizontal", length=200, mode="determinate")
-barraA_label = tk.Label(frame_content, text="0.00%", font=("Arial", 10), bg="#B0FFED")
 barraA.pack(pady=2, fill="x")
-barraA_label.pack(pady=2, fill="x")
+barraA_label = tk.Label(barraA, text="0.00%", font=("Arial", 10))
+barraA_label.place(relx=0.5, rely=0.5, anchor="center")
 
 barraB = ttk.Progressbar(frame_content, orient="horizontal", length=200, mode="determinate")
-barraB_label = tk.Label(frame_content, text="0.00%", font=("Arial", 10), bg="#B0FFED")
 barraB.pack(pady=2, fill="x")
-barraB_label.pack(pady=2, fill="x")
+barraB_label = tk.Label(barraB, text="0.00%", font=("Arial", 10))
+barraB_label.place(relx=0.5, rely=0.5, anchor="center")
 
 barraC = ttk.Progressbar(frame_content, orient="horizontal", length=200, mode="determinate")
-barraC_label = tk.Label(frame_content, text="0.00%", font=("Arial", 10), bg="#B0FFED")
 barraC.pack(pady=2, fill="x")
-barraC_label.pack(pady=2, fill="x")
+barraC_label = tk.Label(barraC, text="0.00%", font=("Arial", 10))
+barraC_label.place(relx=0.5, rely=0.5, anchor="center")
 
 barraD = ttk.Progressbar(frame_content, orient="horizontal", length=200, mode="determinate")
-barraD_label = tk.Label(frame_content, text="0.00%", font=("Arial", 10), bg="#B0FFED")
 barraD.pack(pady=2, fill="x")
-barraD_label.pack(pady=2, fill="x")
+barraD_label = tk.Label(barraD, text="0.00%", font=("Arial", 10),)
+barraD_label.place(relx=0.5, rely=0.5, anchor="center")
 
 barraE = ttk.Progressbar(frame_content, orient="horizontal", length=200, mode="determinate")
-barraE_label = tk.Label(frame_content, text="0.00%", font=("Arial", 10), bg="#B0FFED")
 barraE.pack(pady=2, fill="x")
-barraE_label.pack(pady=2, fill="x")
+barraE_label = tk.Label(barraE, text="0.00%", font=("Arial", 10))
+barraE_label.place(relx=0.5, rely=0.5, anchor="center")
 
 barraF = ttk.Progressbar(frame_content, orient="horizontal", length=200, mode="determinate")
-barraF_label = tk.Label(frame_content, text="0.00%", font=("Arial", 10), bg="#B0FFED")
 barraF.pack(pady=2, fill="x")
-barraF_label.pack(pady=2, fill="x")
+barraF_label = tk.Label(barraF, text="0.00%", font=("Arial", 10))
+barraF_label.place(relx=0.5, rely=0.5, anchor="center")
 
 # Função para ajustar o canvas ao conteúdo
 def ajustar_canvas(event):
